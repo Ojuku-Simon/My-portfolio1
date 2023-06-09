@@ -154,7 +154,6 @@ p.intro-main {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
-    box-shadow: -84px 87px 27px -71px rgba(24, 27, 36, 255), 80px 87px 28px -71px rgba(24, 27, 36, 255);
 }
 
 
