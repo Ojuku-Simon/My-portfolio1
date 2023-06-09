@@ -147,6 +147,27 @@ p.intro-main {
     }
 }
 
+.footer-iconTop a {
+    width: 100%;
+    animation-name: moving-up-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    box-shadow: -84px 87px 27px -71px rgba(24, 27, 36, 255), 80px 87px 28px -71px rgba(24, 27, 36, 255);
+}
+
+
+@keyframes moving-up-down {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
 .social-media {
     margin: max(3%, 40px) 0;
     display: inline-flex;
